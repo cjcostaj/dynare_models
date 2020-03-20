@@ -28,12 +28,12 @@ alpha = 0.39;         //Kanczuc (2002)
 prss = 0.03;
 s = 1.3;
 
-tau_css = 0.1594;     //Araújo e Ferreira (1999)
-tau_lss = 0.1730;     //Araújo e Ferreira (1999)
+tau_css = 0.1594;     //AraÃºjo and Ferreira (1999)
+tau_lss = 0.1730;     //AraÃºjo and Ferreira (1999)
 tau_sss = 0.105;      //Cavalcanti and Silva (2010)
 tau_corpss = 0.17;
 
-varphimss = 7.758;    //Pablo Burriel, Jesús Fernández-Villaverde e Juan F. Rubio-Ramírez: MEDEA: a DSGE model for the Spanish economy 
+varphimss = 7.758;    //Pablo Burriel, JesÃºs FernÃ¡ndez-Villaverde e Juan F. Rubio-RamÃ­rez: MEDEA: a DSGE model for the Spanish economy 
 varphi = 8.8;         //Castro et al (2010)
 thetaW = 0.75;        //Castro et al (2010)
 theta = 0.74;         //Castro et al (2010)
@@ -270,8 +270,8 @@ estimated_params;
 varphimss, gamma_pdf, 8, 0.5; 
 psim, uniform_pdf, , , 1.4, 1.5;
 psiu, uniform_pdf, , , 1.51, 1.8;
-tau_css, beta_pdf, 0.1594, 0.01;     //Araújo e Ferreira (1999)
-tau_lss, beta_pdf, 0.1730, 0.01;     //Araújo e Ferreira (1999)
+tau_css, beta_pdf, 0.1594, 0.01;     //AraÃºjo and Ferreira (1999)
+tau_lss, beta_pdf, 0.1730, 0.01;     //AraÃºjo and Ferreira (1999)
 tau_sss, beta_pdf, 0.105, 0.01;      //Cavalcanti and Silva (2010)
 tau_corpss, uniform_pdf, , , 0.25, 0.35;
 gammaG, uniform_pdf, , , 0.01, 0.8;
@@ -300,7 +300,7 @@ rhotau_s, beta_pdf, 0.5, 0.25;
 rhotau_l, beta_pdf, 0.5, 0.25;
 rhom, beta_pdf, 0.5, 0.25;
 rhovarphim, beta_pdf, 0.5, 0.25;
-//Desvios padrão
+//Desvios padrÃ£o
 stderr e_P, inv_gamma_pdf, 1, inf;
 stderr e_L , inv_gamma_pdf, 1, inf;
 stderr e_Am, inv_gamma_pdf, 1, inf;
